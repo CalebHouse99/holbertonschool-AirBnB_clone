@@ -1,0 +1,98 @@
+.places {
+    width: 100%;
+}
+
+.places h1 {
+    font-size: 30px;
+}
+
+.places .articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.places .articles article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: #FF5A5F solid 1px;
+    border-radius: 4px;
+}
+
+.places .articles article h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.places .articles article .price_by_night {
+    position: absolute;
+    color: #FF5A5F;
+    border: #FF5A5F 4px solid;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.places .articles article .triple {
+    margin-left: 295px;
+}
+
+.places .articles article .information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border-top: #DDD 1px solid;
+    border-bottom: #DDD 1px solid;
+}
+
+.places .articles article .information .iconset .group_icon{
+    background: url("/web_static/images/icon_group.png");
+    width: 50px;
+    height: 50px;
+}
+
+.places .articles article .information .iconset .bed_icon{
+    background: url("/web_static/images/icon_bed.png");
+    width: 50px;
+    height: 50px;
+}
+
+.places .articles article .information .iconset .bath_icon{
+    background: url("/web_static/images/icon_bath.png");
+    width: 50px;
+    height: 50px;
+}
+
+.places .articles article .information .iconset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100px;
+}
+
+.places .articles article .information .number_rooms {
+    margin: 30px;
+}
+
+.places .articles article .user {
+    margin: 15px 0;
+}
+
+.places .articles article .user span {
+    font-weight: bold;
+}
+
+/* Reset footer position to relative once page is long enough to knock it down */
+footer {
+    position: relative;
+}
